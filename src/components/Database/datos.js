@@ -1,10 +1,4 @@
-export var categorias = [
-    {
-        id: 1,
-        nombre: "Deportes",
-        fecha: new Date(),
-    },
-];
+export var genero = [];
 
 //
 
@@ -12,7 +6,7 @@ export var juegos = [
     {
         image: "https://cdn.akamai.steamstatic.com/steam/apps/1811260/capsule_616x353.jpg?t=1677074188",
         nombre: "Fifa 23",
-        genero: "Acción",
+        genero: "deportes",
         plataforma: "PC",
         desarrollador: "Mi empresa",
         lanzamiento: "2023",
@@ -28,10 +22,11 @@ export var juegos = [
         objetivos: ["Misiones principales", "Misiones secundarias", "Logros"],
         modo_multijugador: false,
         modo_en_linea: false,
+        sistema_de_puntuacion: true,
+        sistema_de_guardado: true,
         tutorial: true,
         opciones: ["Sonido", "Gráficos", "Controles"],
         dificultad: 2,
-        categoriaId: 1,
     },
     {
         image: "https://i.blogs.es/6bfe40/forzahorizon5_launch_preview-04_16x9_wm/840_560.jpeg",
@@ -52,9 +47,10 @@ export var juegos = [
         objetivos: ["Misiones principales", "Misiones secundarias", "Logros"],
         modo_multijugador: false,
         modo_en_linea: false,
+        sistema_de_puntuacion: true,
+        sistema_de_guardado: true,
         tutorial: true,
         opciones: ["Sonido", "Gráficos", "Controles"],
         dificultad: 2,
-        categoriaId: 1,
-    },
+    }
 ];
